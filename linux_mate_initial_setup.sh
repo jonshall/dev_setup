@@ -68,6 +68,9 @@ sudo apt-get install python-dev -y
 # install python pep-8
 pip install pep8
 
+# install pylint
+pip install pylint
+
 # update and upgrade again after install
 sudo apt update
 sudo apt upgrade -y
