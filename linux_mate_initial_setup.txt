@@ -74,3 +74,6 @@ pip install pylint
 # update and upgrade again after install
 sudo apt update
 sudo apt upgrade -y
+
+# remove the no longer needed
+sudo apt autoremove -y
