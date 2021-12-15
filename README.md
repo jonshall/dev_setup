@@ -2,4 +2,4 @@
 Setup items for Dev Environment
 
 Includes:
--Linux Mate setup script
+-Ubuntu 20.04 Mate setup script
