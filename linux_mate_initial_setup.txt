@@ -47,7 +47,7 @@ sudo apt install ghidra -y
 sudo apt-get install libcunit1 libcunit1-doc libcunit1-dev
 
 # install cmocka
-sudo apt-get install cmocka-doc
+sudo apt-get install cmocka-doc libcmocka-dev
 
 # install valgrind
 sudo apt install valgrind
