@@ -52,6 +52,9 @@ sudo apt-get install cmocka-doc libcmocka-dev
 # install valgrind
 sudo apt install valgrind
 
+# install the train, just because
+sudo apt install sl
+
 # install pip for python3
 sudo apt install python3-pip
 
