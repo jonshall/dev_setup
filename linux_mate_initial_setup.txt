@@ -3,8 +3,8 @@
 # to access shared folder
 sudo adduser jon vboxsf
 
-# install build essentials
-sudo apt install build-essential
+# install tools to build and debug kernel
+sudo apt install git make gdb gcc gcc-doc build-essential fakeroot ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
 
 # update and upgrade
 sudo apt update
