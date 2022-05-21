@@ -1,5 +1,3 @@
-#/bin/bash
-
 # to access shared folder
 sudo adduser jon vboxsf
 
