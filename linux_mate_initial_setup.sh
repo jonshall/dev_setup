@@ -3,8 +3,8 @@
 # to access shared folder
 sudo adduser jon vboxsf
 
-# install build essentials
-sudo apt install build-essential
+# install tools to build and debug kernel
+sudo apt install git make gdb gcc gcc-doc build-essential fakeroot ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
 
 # update and upgrade
 sudo apt update
@@ -49,11 +49,11 @@ sudo apt-get install libcunit1 libcunit1-doc libcunit1-dev
 # install cmocka
 sudo apt-get install cmocka-doc libcmocka-dev
 
-# install valgrind
-sudo apt install valgrind
-
 # install the train, just because
 sudo apt install sl
+
+# install valgrind
+sudo apt install valgrind
 
 # install pip for python3
 sudo apt install python3-pip
