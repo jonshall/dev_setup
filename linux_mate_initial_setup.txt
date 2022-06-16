@@ -2,7 +2,7 @@
 sudo adduser jon vboxsf
 
 # install tools to build and debug kernel
-sudo apt install git make gdb gcc gcc-doc build-essential fakeroot ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
+sudo apt install git make gdb gcc gcc-doc build-essential fakeroot ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison -y
 
 # update and upgrade
 sudo apt update
@@ -45,7 +45,7 @@ sudo apt install ghidra -y
 sudo apt-get install libcunit1 libcunit1-doc libcunit1-dev
 
 # install cmocka
-sudo apt-get install cmocka-doc libcmocka-dev
+sudo apt-get install cmocka-doc libcmocka-dev -y
 
 # install the train, just because
 sudo apt install sl
