@@ -59,7 +59,7 @@ sudo apt install valgrind
 sudo apt install python3-pip
 
 # install pwntools
-sudo apt-get install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential
+sudo apt-get install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential -y
 python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade pwntools
 git clone https://github.com/Gallopsled/pwntools
