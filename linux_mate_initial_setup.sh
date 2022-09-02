@@ -68,6 +68,17 @@ sudo apt-get install python-dev -y
 # install python pep-8
 pip install pep8
 
+# markdown lint
+sudo apt-get install gem -y
+sudo apt-get install rake -y
+git clone https://github.com/markdownlint/markdownlint                                                                                                        ──(Fri,Sep02)─┘
+cd markdownlint
+sudo rake install
+cd ..
+
+# shellcheck
+sudo apt install shellcheck
+
 # update and upgrade again after install
 sudo apt update
 sudo apt upgrade -y
