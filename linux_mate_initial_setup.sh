@@ -3,8 +3,8 @@
 # to access shared folder
 sudo adduser jon vboxsf
 
-# install build essentials
-sudo apt install build-essential
+# install tools to build and debug kernel
+sudo apt install git make gdb gcc gcc-doc build-essential fakeroot ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison -y
 
 # update and upgrade
 sudo apt update
@@ -47,7 +47,10 @@ sudo apt install ghidra -y
 sudo apt-get install libcunit1 libcunit1-doc libcunit1-dev
 
 # install cmocka
-sudo apt-get install cmocka-doc
+sudo apt-get install cmocka-doc libcmocka-dev -y
+
+# install the train, just because
+sudo apt install sl
 
 # install valgrind
 sudo apt install valgrind
@@ -56,7 +59,7 @@ sudo apt install valgrind
 sudo apt install python3-pip
 
 # install pwntools
-sudo apt-get install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential
+sudo apt-get install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential -y
 python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade pwntools
 git clone https://github.com/Gallopsled/pwntools
@@ -79,6 +82,12 @@ cd ..
 # shellcheck
 sudo apt install shellcheck
 
+# install pylint
+pip install pylint
+
 # update and upgrade again after install
 sudo apt update
 sudo apt upgrade -y
+
+# remove the no longer needed
+sudo apt autoremove -y
